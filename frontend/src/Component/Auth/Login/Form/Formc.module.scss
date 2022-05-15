@@ -1,0 +1,26 @@
+.custombsbtn {
+  width: 70%;
+  background-color: #42b72a;
+  font-weight: bold;
+  border: #42b72a;
+  margin-top: 2rem;
+  font-size: medium;
+  &:hover {
+    background-color: #257315;
+  }
+}
+.subz {
+  font-weight: bold;
+  font-size: large;
+}
+.dgrid {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.formh {
+  width: 25rem;
+}
+.seperator {
+  height: 1.5rem;
+}

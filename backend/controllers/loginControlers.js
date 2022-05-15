@@ -4,11 +4,11 @@ const asyncHandler = require("express-async-handler");
 // @desc Get Goals
 // @rout GET /api/goals
 // @access private
-const Login = asyncHandler(async (req, res) => {
- 
-    res.send("Login");
-    
-});
+const Login = (req, res) => {
+  console.log(req.body.form.email);
+
+  res.send({ Data: "Login" });
+};
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 module.exports = {

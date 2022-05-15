@@ -1,6 +1,55 @@
+body {
+  background-color: #f0f2f5;
+  margin: 0%;
+  padding: 0%;
+}
+.herotext {
+  color: #1877f2;
+}
+.break {
+  margin-top: 30 px;
+  size: 15px;
+  color: red;
+}
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Row1 {
+  height: 30%;
+  margin-top: -13%;
+  width: 100%;
 }
 .Row2 {
+  display: flex;
+  padding-bottom: 10rem;
+}
+.Row4 {
+  background-color: #ffffff;
+  height: 28%;
+  margin-bottom: -7.6%;
+  width: 100%;
+}
+.Col {
+  // margin: 0 30px;
+}
+
+.Col1 {
+  margin-top: 20px;
+  margin-right: 5rem;
+}
+
+.Col2 {
+  background-color: #ffffff;
+  box-shadow: 0.1rem 0.1rem 0.4rem 0.2rem rgba(0, 0, 0, 0.35);
+  border-radius: 3%;
+  padding: 2rem;
+  border: 0.1px;
+  @media only screen and (max-width: 600px) {
+    justify-content: center;
+    align-items: center !important;
+  }
 }

@@ -1,3 +1,19 @@
+body {
+  background-color: #f0f2f5;
+  margin: 0%;
+  padding: 0%;
+}
+
+.herotext {
+  color: #1877f2;
+}
+
+.break {
+  margin-top: 30 px;
+  size: 15px;
+  color: red;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,5 +22,57 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.Row1 {
+  height: 30%;
+  margin-top: -13%;
+  width: 100%;
+}
+
+.Row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 10rem;
+}
+
+.Row4 {
+  background-color: #ffffff;
+  height: 28%;
+  margin-bottom: -7.6%;
+  width: 100%;
+}
+
+.Col1 {
+  margin-top: 20px;
+  margin-right: 5rem;
+}
+
+.Col2 {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0.1rem 0.1rem 0.4rem 0.2rem rgba(0, 0, 0, 0.35);
+          box-shadow: 0.1rem 0.1rem 0.4rem 0.2rem rgba(0, 0, 0, 0.35);
+  border-radius: 3%;
+  padding: 2rem;
+  border: 0.1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Col2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
 }
 /*# sourceMappingURL=Login.module.css.map */

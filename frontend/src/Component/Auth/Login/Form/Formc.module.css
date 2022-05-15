@@ -1,0 +1,38 @@
+.custombsbtn {
+  width: 70%;
+  background-color: #42b72a;
+  font-weight: bold;
+  border: #42b72a;
+  margin-top: 2rem;
+  font-size: medium;
+}
+
+.custombsbtn:hover {
+  background-color: #257315;
+}
+
+.subz {
+  font-weight: bold;
+  font-size: large;
+}
+
+.dgrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.formh {
+  width: 25rem;
+}
+
+.seperator {
+  height: 1.5rem;
+}
+/*# sourceMappingURL=Formc.module.css.map */
