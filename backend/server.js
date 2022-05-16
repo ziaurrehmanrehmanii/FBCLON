@@ -1,18 +1,14 @@
 // Imports----------------------------
 const express = require("express");
-const AUTH = require("./Routes/loginRoutes");
+const AUTH = require("./Routes/authRoutes");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
+const connectDB = require("./Config/DB");
+require("dotenv").config();
+///////////////////////////////////////////////////////////////////////////////////////
+// Connect to databas
+connectDB();
 
-mongoose
-  .connect("mongodb://localhost:27017/testDB")
-  .then(() => {
-    console.log("connected");
-  })
-  .catch((e) => {
-    console.log("Something went wrong", e);
-  });
 /////////////////////////////////////////////////////////////////////////////////////////
 // Variables ----------------------------
 const app = express();
