@@ -2,7 +2,6 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styled from "styled-components";
 import styles from "./Formc.module.css";
 
 export default function Formc() {

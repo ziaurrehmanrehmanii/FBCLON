@@ -1,0 +1,41 @@
+.register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.formS {
+  width: 30%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0.1rem 0.1rem 0.4rem 0.2rem rgba(0, 0, 0, 0.35);
+          box-shadow: 0.1rem 0.1rem 0.4rem 0.2rem rgba(0, 0, 0, 0.35);
+  border-radius: 3%;
+  padding: 2rem;
+  border: 0.1px;
+}
+
+.radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.radiocontrol {
+  margin: 0px 1rem 1rem 1rem;
+}
+
+.dob {
+  width: 100%;
+}
+/*# sourceMappingURL=Register.module.css.map */
